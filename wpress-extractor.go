@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/yani-/wpress"
+	"github.com/agustinavila/wpress"
 	"os"
 )
 
