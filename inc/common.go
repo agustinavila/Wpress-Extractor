@@ -34,7 +34,7 @@ import (
 
 const (
 	headerSize   = 4377 // length of the header
-	filenameSize = 255  // maximum number of bytes allowed for filename
+	filenameSize = 512  // maximum number of bytes allowed for filename
 	contentSize  = 14   // maximum number of bytes allowed for content size
 	mtimeSize    = 12   // maximum number of bytes allowed for last modified date
 	prefixSize   = 4096 // maximum number of bytes allowed  for prefix
